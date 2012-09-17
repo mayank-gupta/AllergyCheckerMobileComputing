@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<TextView android:id="@+id/label1" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Please enter your google health username and password"
+    />
+    <TextView android:id="@+id/label3" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:layout_below="@id/label1"
+    android:text=""
+    />
+    
+	<TextView android:id="@+id/label2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Username"
+	android:layout_below="@id/label3"
+	/>
+	
+	<EditText android:id="@+id/username"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/label2"
+	android:background="@android:drawable/editbox_background"
+	/>
+	
+	<TextView android:id="@+id/labeluser"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Password"
+	android:layout_below="@id/username"
+	/>
+	
+	<EditText
+	android:id="@+id/password"
+	android:password="true"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/labeluser"
+	android:background="@android:drawable/editbox_background"
+	/>
+	
+	<Button
+	android:id="@+id/cancel_button"
+	android:text="Cancel"
+	android:layout_alignParentRight="true"
+    android:layout_marginLeft="10dip"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/password"
+	/>
+	
+	<Button
+	android:id="@+id/login_button"
+	android:text="Login"
+	android:layout_toLeftOf="@id/cancel_button"
+    android:layout_alignTop="@id/cancel_button"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/labeluser"
+	/>
+	
+	<TextView
+	android:id="@+id/result"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+</RelativeLayout>

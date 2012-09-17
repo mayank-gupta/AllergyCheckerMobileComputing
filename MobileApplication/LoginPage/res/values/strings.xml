@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Login!</string>
+    <string name="app_name">AllergyChecker</string>
+    <string name="alert_dialog_two_buttons_title">Login Unsuccessful</string>  
+    <string name="alert_dialog_two_buttons">OK Cancel dialog with a message</string>  
+</resources>

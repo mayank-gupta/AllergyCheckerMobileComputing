@@ -1,0 +1,7 @@
+Import Project stored in AllergyCheckerProxyServer folder in eclipse. Use Eclipse Helios for this.
+1) Install apache tomcat server
+2) Install mysql server
+3) Modify dabase connection url in com.utils.DatabaseConnectionParameters
+4) Deploy application on apache tomcat server
+5) Import SQL database 'allergyalertsystem.sql' into MySQL database.
+4) Required libraries are stored in LibraryRequired folder.

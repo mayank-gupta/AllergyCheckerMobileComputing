@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+        <TextView android:id="@+id/a" 
+        android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="Enter Product Name or Scan a barcode"
+		/>
+  
+   	     <TextView android:id="@+id/b"  
+   		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/a"
+		android:text=""
+		
+		/>
+	    
+       <EditText android:id="@+id/title"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_below="@id/b"
+		/>
+				
+		<Button android:text="Enter"
+		android:id="@+id/Enter"
+		android:layout_width="wrap_content"
+		android:textSize="18px"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/title"
+	/>
+	
+			 
+    <TextView android:id="@+id/c"
+    	 android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:layout_below="@id/Enter"
+		/>
+		
+		 
+    <TextView android:id="@+id/d"
+    	android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:layout_below="@id/c"
+		/>
+		
+    <TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/d">
+    <TableRow>
+        <Button android:text="Scan a Barcode"
+		android:id="@+id/Button"
+		android:layout_width="fill_parent"
+		android:textSize="18px"
+		android:layout_height="wrap_content"
+		
+		/>
+		<Button android:text="Back"
+		android:id="@+id/Cancel"
+		android:layout_width="fill_parent"
+		android:textSize="18px"
+		android:layout_height="wrap_content"
+		/>
+		</TableRow>
+		</TableLayout>
+	
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+This is an android project which integrates user's Google health 
+profile and helps him do grocery shopping by scanning barcode of the product 
+. The application checks ingredients of the product with the user's allergies as
+mentioned on his google health profile page and tells the user if the product contains
+andy allergic ingredients.
+
+The project uses Google health API. The UI is in basic Android. This is a demo app and 
+does not use the database provided by US Food Services. 
+
+Use the readme's in the respective Eclipse directories to setup and run the project.
+
+NOTE: For more information contact mayank519@gmail.com
