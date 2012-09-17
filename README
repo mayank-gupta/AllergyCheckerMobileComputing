@@ -8,5 +8,6 @@ The project uses Google health API. The UI is in basic Android. This is a demo a
 does not use the database provided by US Food Services. 
 
 Use the readme's in the respective Eclipse directories to setup and run the project.
+The application using Zxing(Zebra Crossing) for Bar Code scanning.
 
 NOTE: For more information contact mayank519@gmail.com
